@@ -39,5 +39,3 @@ for artist, song in zip(artist_elements, song_elements):
     artist_name = remove_emojis(artist.get_text(strip=True))
     song_title = remove_emojis(song.get_text(strip=True))
     print(f"Artist: {artist_name}, Song: {song_title}")
-
-
